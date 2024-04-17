@@ -1,0 +1,169 @@
+/*
+Custom Css
+*/
+
+.no-border-override {
+    border: 0px;
+}
+
+.stub-margin {
+    margin-top: 70px;
+}
+
+.stub-margin-92 {
+    margin-top: 92px;
+}
+
+.stub-margin-49 {
+    margin-top: 49px;
+}
+
+.stub-margin-20 {
+    margin-top: 20px;
+}
+
+.glassy {
+    /* background-color: rgb(1 1 1 / 6%);
+    backdrop-filter: blur(12px); */
+    background-color: rgb(255, 255, 255);
+}
+
+.img-fitting {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-fitting-less {
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.freech {
+    color: #808080;
+}
+
+.scard {
+    height: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+    
+    /* margin-left: 1px;
+    margin-right: 1px; */
+    text-overflow: ellipsis;
+}
+
+.fl-right {
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.crd-margin {
+    margin-top: 10px;
+}
+
+.mrg-tb-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.time-step-ul {
+    list-style-type: none;
+    position: relative;
+    margin-top: 10px;
+}
+
+.time-step-ul:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 90%;
+    z-index: 0;
+}
+
+.time-step-ul > li {
+    padding-left: 20px;
+}
+
+.time-step-ul > li > span {
+    font-size: small;
+    position: relative;
+    top: -5px;
+}
+
+.time-step-ul > .ts-n:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #424242;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 0;
+}
+
+.time-step-ul > .ts-f:before {
+    content: ' ';
+    background: #424242;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #424242;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 0;
+}
+
+.expnad-angle {
+    float: right;
+    position: relative;
+    top: 4px;
+    transition: 1s;
+}
+
+.expnad-angle:hover {
+    transform: rotate(180deg);
+}
+
+.ts-badge {
+    color: #424242;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #424242;
+    margin-right: 3px;
+}
+
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 526px;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.sbanner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sicon {
+    width:  180px;
+    height: 180px;
+    border: 2px solid #dbdbdb;
+    border-radius: 6px;
+}
